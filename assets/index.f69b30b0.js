@@ -598,7 +598,32 @@ padding-bottom: 1%;
 `,wg=Y.div`
     background-color: #D2D2D2;
     border-radius: 20px;
-    width: 40%;
+    width: 50%;
 `,Ag=Y.div`
     margin-left: 10%;
-`,Sg=()=>Q(Rl,{children:[v("div",{children:v(Dr,{text:"Entre em contato conosco!"})}),Q(hg,{children:[Q(pg,{children:[Q(mg,{children:[v("img",{src:sg,alt:""}),v("p",{children:"Rua Bonfim, 25 em Vila Am\xE9lia, "})]}),Q(gg,{children:[v("img",{src:cg,alt:""}),v("p",{children:"(22) 2533-2265"})]}),Q(vg,{children:[v("img",{src:fg,alt:""}),v("p",{children:"serrajr@iprj.uerj.br"})]}),Q(yg,{children:[v("img",{src:dg,alt:""}),Q("p",{children:["Hor\xE1rio de atendimento: ",v("br",{}),"Segunda a Sexta, das 09hrs ",v("br",{}),"\xE0s 17hrs."]})]})]}),v(wg,{children:Q(Ag,{children:[v("p",{children:"Nome"}),v("input",{type:"text"}),v("p",{children:"Email"}),v("input",{type:"text"}),v("p",{children:"Telefone"}),v("input",{type:"text"}),v("p",{children:"Assunto"}),v("input",{type:"text"}),v("p",{children:"Mensagem"}),v("input",{type:"text"})]})})]})]}),kg=()=>v(Rl,{children:Q(I0,{children:[v(M0,{}),v(oo,{children:v(Ci,{path:"/",element:v(X0,{})})}),v(oo,{children:v(Ci,{path:"/quemSomos",element:v(ag,{})})}),v(oo,{children:v(Ci,{path:"/contatos",element:v(Sg,{})})}),v($m,{})]})});function xg(){return v("div",{className:"App",children:v(kg,{})})}so.createRoot(document.getElementById("root")).render(v(Fr.StrictMode,{children:v(xg,{})}));
+
+    p{
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 10px;
+    }
+
+    input {
+        border-radius: 10px;
+        border: 1px;
+        width: 90%;
+        height: 2rem;
+    }
+
+    button {    
+        margin-top: 10%;
+        border: 0px;
+        background: #FF7400;
+        border-radius: 10px;
+        width: 90%;
+        height: 2rem;
+        color: #fff;
+    }
+`,Sg=()=>Q(Rl,{children:[v("div",{children:v(Dr,{text:"Entre em contato conosco!"})}),Q(hg,{children:[Q(pg,{children:[Q(mg,{children:[v("img",{src:sg,alt:""}),v("p",{children:"Rua Bonfim, 25 em Vila Am\xE9lia, "})]}),Q(gg,{children:[v("img",{src:cg,alt:""}),v("p",{children:"(22) 2533-2265"})]}),Q(vg,{children:[v("img",{src:fg,alt:""}),v("p",{children:"serrajr@iprj.uerj.br"})]}),Q(yg,{children:[v("img",{src:dg,alt:""}),Q("p",{children:["Hor\xE1rio de atendimento: ",v("br",{}),"Segunda a Sexta, das 09hrs ",v("br",{}),"\xE0s 17hrs."]})]})]}),v(wg,{children:Q(Ag,{children:[v("p",{children:"Nome"}),v("input",{type:"text"}),v("p",{children:"Email"}),v("input",{type:"text"}),v("p",{children:"Telefone"}),v("input",{type:"text"}),v("p",{children:"Assunto"}),v("input",{type:"text"}),v("p",{children:"Mensagem"}),v("input",{type:"text"}),v("br",{}),v("button",{children:"Enviar"})]})})]})]}),kg=()=>v(Rl,{children:Q(I0,{basename:"/Site-Serra",children:[v(M0,{}),v(oo,{children:v(Ci,{path:"/",element:v(X0,{})})}),v(oo,{children:v(Ci,{path:"/quemSomos",element:v(ag,{})})}),v(oo,{children:v(Ci,{path:"/contatos",element:v(Sg,{})})}),v($m,{})]})});function xg(){return v("div",{className:"App",children:v(kg,{})})}so.createRoot(document.getElementById("root")).render(v(Fr.StrictMode,{children:v(xg,{})}));
