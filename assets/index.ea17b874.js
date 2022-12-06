@@ -1295,7 +1295,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     display: flex;
     justify-content: space-around;
     border-radius: 0px 0px 0px 100px;
-    min-height: 50vh;
     
     @media screen and (max-width: 390px) {
         order: 1;
@@ -1352,7 +1351,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         margin-top: 5%;
     }
     @media screen and (min-width: ${S.notebook}) {
-        width: 25%;
+        width: 30%;
         margin-top: 0;
     }
 `,vE=()=>Y(Hn,{children:[w(pE,{children:Y(fE,{children:[w(hE,{children:"Sobre N\xF3s"}),w(mE,{src:Ww,alt:"imagem sobre n\xF3s"})]})}),w(dE,{})]}),gE=L.div`
